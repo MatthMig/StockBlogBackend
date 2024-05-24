@@ -9,7 +9,7 @@
         "updatedb": "node src/util/updatedb.js",
         "doc": "node src/util/swagger.js",
         "start": "npm run doc && npm run updatedb  && node src/server.js",
-        "dev": "dotenv -e .env npm run doc && nodemon src/server.js",
+        "dev": "npm run doc && dotenv -e .env nodemon src/server.js",
         "test": "npm run updatedb && jest --coverage",
         "build": "echo 'No build step required for backend.'"
     },

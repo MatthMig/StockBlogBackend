@@ -5,7 +5,7 @@
     "title": "REST API",
     "description": ""
   },
-  "host": "localhost:3000",
+  "host": "stock-blog-backend.osc-fr1.scalingo.io",
   "basePath": "/",
   "schemes": [
     "http"
